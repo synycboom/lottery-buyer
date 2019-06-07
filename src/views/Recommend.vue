@@ -4,7 +4,7 @@
 
 <script>
 
-  export default {
-    name: 'Recommend',
-  };
+export default {
+  name: 'Recommend',
+};
 </script>

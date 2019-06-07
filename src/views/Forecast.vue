@@ -4,7 +4,7 @@
 
 <script>
 
-  export default {
-    name: 'Forecast',
-  };
+export default {
+  name: 'Forecast',
+};
 </script>

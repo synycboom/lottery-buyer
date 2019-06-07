@@ -8,9 +8,9 @@ export default new Router({
   base: process.env.BASE_URL,
   routes: [
     {
-      path: '/dashboard',
-      name: 'dashboard',
-      component: () => import(/* webpackChunkName: "dashboard" */ './views/Dashboard.vue'),
+      path: '/search',
+      name: 'search',
+      component: () => import(/* webpackChunkName: "dashboard" */ './views/Search.vue'),
     },
     {
       path: '/how-to',
@@ -18,19 +18,24 @@ export default new Router({
       component: () => import(/* webpackChunkName: "how-to" */ './views/HowTo.vue'),
     },
     {
-      path: '/add-lottery',
-      name: 'add-lottery',
-      component: () => import(/* webpackChunkName: "add-lottery" */ './views/AddLottery.vue'),
+      path: '/wish-list',
+      name: 'wish-list',
+      component: () => import(/* webpackChunkName: "add-lottery" */ './views/WishList.vue'),
     },
     {
-      path: '/inventory',
-      name: 'inventory',
-      component: () => import(/* webpackChunkName: "inventory" */ './views/Inventory.vue'),
+      path: '/forecast',
+      name: 'forecast',
+      component: () => import(/* webpackChunkName: "inventory" */ './views/Forecast.vue'),
     },
     {
-      path: '/order',
-      name: 'order',
-      component: () => import(/* webpackChunkName: "inventory" */ './views/Order.vue'),
+      path: '/recommend',
+      name: 'recommend',
+      component: () => import(/* webpackChunkName: "inventory" */ './views/Recommend.vue'),
+    },
+    {
+      path: '/history',
+      name: 'history',
+      component: () => import(/* webpackChunkName: "inventory" */ './views/History.vue'),
     },
   ],
 });

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div><h1>เลขเด็ด</h1></div>
+    <div><h1 class="text-primary">เลขเด็ด</h1></div>
     <div class="row">
       <div class="col">
         <div class="card" style="width: 18rem;">

@@ -1,5 +1,8 @@
 <template>
-  <div> How To </div>
+  <div>
+    <br/>
+    <h1 class="text-primary">วิธีการใช้งาน</h1>
+  </div>
 </template>
 
 <script>

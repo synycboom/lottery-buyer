@@ -1,7 +1,7 @@
 <template>
   <div>
     <br/>
-    <div><h1>ประวัติการซื้อ</h1></div>
+    <div><h1 class="text-primary">ประวัติการซื้อ</h1></div>
     <div class="row">
       <div class="col">
         <b-table striped hover :items="historyItem"></b-table>

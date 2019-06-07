@@ -1,7 +1,7 @@
 <template>
   <div>
     <br/>
-    <h1>ค้นหา </h1>
+    <h1 class="text-primary">ค้นหา </h1>
     <div class="row">
       <div class="col-10">
         <b-form-input v-model="text" placeholder="ใส่เลขที่คุณต้องการค้นหา"></b-form-input>

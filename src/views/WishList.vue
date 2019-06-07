@@ -1,7 +1,7 @@
 <template>
   <div>
     <br/>
-    <h1>เพิ่มแจ้งเตือนเลขที่คุณชอบ!! </h1>
+    <h1 class="text-primary">เพิ่มแจ้งเตือนเลขที่คุณชอบ!! </h1>
     <div class="row">
       <div class="col-10">
         <b-form-input v-model="text" placeholder="ใส่เลขที่คุณชื่นชอบ"></b-form-input>
